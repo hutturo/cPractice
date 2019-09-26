@@ -9,8 +9,10 @@ int main(void)
 	
 	int sum = num_man + num_woman;
 	
-	double manRatio = 1.0 * num_man / sum * 100;
-	double womanRatio = 1.0 * num_woman / sum * 100;
+	//double manRatio = 1.0 * num_man / sum * 100;
+	//double womanRatio = 1.0 * num_woman / sum * 100;
+	double manRatio = (double)num_man / sum * 100;
+	double womanRatio = (double)num_woman / sum * 100;
 	
 	printf("manRatio: %.2f%%\twomanRatio: %.2f%%\n", manRatio, womanRatio);
 	

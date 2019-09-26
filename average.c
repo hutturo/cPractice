@@ -15,7 +15,7 @@ int main(void)
 	
 	double average;
 	
-	average = (Korean + English + Math) / 3.0;
+	average = (double)(Korean + English + Math) / 3;
 	printf("평균점수: %.2f\n", average);
 	return 0;
 }
